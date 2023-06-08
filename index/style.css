@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+}
+header{
+    
+    display: flex;
+    padding:5px;
+    width: 100vw;
+    height: 13vh;
+    align-items: center;
+    justify-content:center;
+
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-matriz-de-fluxo-de-algoritmo-de-codigo-binario-digital_1017-25328.jpg?w=740&t=st=1686264639~exp=1686265239~hmac=fa2c796bee6dd4bdd7c5b6feb3bb1e9599b9ef784d2eeade39deee08363bb776Z");
+    background-size: cover; 
+}
+.text-about-me{
+    font-style: italic;
+    font-weight: bolder;
+
+}
+nav{
+display: flex;
+justify-content: space-around;
+gap: 20px;
+
+}
+button{
+    border: none;
+    width: 10em;
+    height: 2em;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder
+}
+button:hover{
+background-color: rgba(148, 65, 216, 0.253);
+color: antiquewhite;
+cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+
+}
+.container{
+padding: 20px;
+margin: 35px;
+background-color: rgba(200, 200, 218, 0.301);
+border-radius: 5px;
+text-align: center;
+width:50vw;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#title-who-i-am{
+    margin-bottom: 150px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+footer{ 
+    height:10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
